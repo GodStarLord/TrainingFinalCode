@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auditchecklistdpl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: AuditCheckList
+  template:
+    metadata:
+      labels:
+        app: AuditCheckList
+    spec:
+      containers:
+      - name: msregistry
+        image: msregistry.azurecr.io/msregistry:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: AuditCheckListservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: AuditCheckList

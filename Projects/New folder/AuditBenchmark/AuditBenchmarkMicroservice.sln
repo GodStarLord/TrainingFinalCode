@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuditBenchmarkMicroservice", "AuditBenchmarkMicroservice.csproj", "{5D14038D-7776-43B3-969A-23FFA9D560EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditBenchmarkServiceTesting", "..\AuditBenchmarkServiceTesting\AuditBenchmarkServiceTesting.csproj", "{98CF8EC1-2585-477F-B057-9F386C7A44E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D14038D-7776-43B3-969A-23FFA9D560EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D14038D-7776-43B3-969A-23FFA9D560EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D14038D-7776-43B3-969A-23FFA9D560EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D14038D-7776-43B3-969A-23FFA9D560EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CF8EC1-2585-477F-B057-9F386C7A44E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CF8EC1-2585-477F-B057-9F386C7A44E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CF8EC1-2585-477F-B057-9F386C7A44E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CF8EC1-2585-477F-B057-9F386C7A44E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1AEADD8-5B9E-445B-BAE4-4734792225E0}
+	EndGlobalSection
+EndGlobal
